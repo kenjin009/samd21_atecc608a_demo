@@ -1,0 +1,14 @@
+configName: default
+folderName: atsamd21_ecc608a_demo
+format_version: v1.0
+frameworkPath: ..\..\HarmonyFramework
+processor: ATSAMD21J18A
+projectName: atsamd21_ecc608a_demo
+settings:
+  PackageFilter: audio;bootloader;bootloader_apps_ethernet;bootloader_apps_sdcard;bsp;bt;core;core_apps_sam_e70_s70_v70_v71;crypto;cryptoauthlib;cryptoauthlib_apps;csp;csp_apps_sam_e70_s70_v70_v71;gfx;gfx_apps;micrium_ucos3;motor_control;net;quick_docs;reference_apps;touch;usb;
+  FORCE_OPTIMIZATION: 'false'
+  GENERATE_BACKUP: 'true'
+  TRUSTZONE: 'false'
+  CMSISPath: .\dev_packs\arm\CMSIS\5.7.0
+  MERGE_STRATEGY: USER_ALL
+  DFPPath: .\dev_packs\Microchip\SAMD21_DFP\3.4.104\samd21a\atdf\ATSAMD21J18A.atdf
